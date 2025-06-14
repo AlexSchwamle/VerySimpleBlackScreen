@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <title>A simple black screen</title>
+    <script>
+        var inFullscreen = false;
+        addEventListener("dblclick", (e) => { 
+            if (!inFullscreen) {
+                document.documentElement.requestFullscreen(); 
+                inFullscreen = true;
+            } else {
+                document.exitFullscreen();
+                inFullscreen = false;
+            }
+        });
+    </script>
+    <style>
+        body {
+            background-color: black;
+        }
+    </style>
+    <body></body>
+</html>
