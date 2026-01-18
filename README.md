@@ -1,4 +1,4 @@
 # VerySimpleBlackScreen
-An extremely simple HTML black screen that simply toggles fullscreen on double click.
+An extremely simple HTML black screen that simply toggles fullscreen on a single click.
 
-Open [index.html](./index.html) and double click anywhere on the page. Rinse and repeat.
+Open [index.html](./index.html) and click anywhere on the page. Rinse and repeat.
